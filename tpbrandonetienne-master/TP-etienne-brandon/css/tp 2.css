@@ -108,8 +108,7 @@ ul#menu-footer li{
 	width:100%;
 }
 p{
-	margin-left: 482px;
-    margin-right: 399px;
+	text-align:center;
 }
 .pokemon{
 	float:left;
