@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">    
+        <title>Contact</title>
+        <meta name="author" content="Prénom Nom" >
+        <meta name="description" content="Mettre ici un résumé descriptif du contenu de la page avec des mots-clés" >
+        <meta name="robots" content="index,follow" >
+        <link rel="shortcut icon" type="images/x-icon" href="favicon.ico" />
+        
+		<!-- lien vers fichier css externe -->
+		<link rel="stylesheet" href="css/unites.css" >
+        <script src="js/main.js"></script>
+		
+		<!-- 		
+			commentaire conditionnel pour rendre compatible les nouvelles balises structurantes de HTML5 
+		-->
+		
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<style>
+			
+		</style>
+	</head>
+	<body>
+		
+		<nav>
+			<ul>
+				
+				<li><a href="TP_etienne_brandon.html">Acceuil</a></li>
+				<li><a href="gallerie.html">Gallerie</a></li>	
+				<li><a href="tableau.html">Tableau</a></li>
+				<li><a href="catalogue.html">Catalogue</a></li>	
+				<li><a href="formulaire.html">Contact</a></li>	
+				
+				
+				
+			</ul>
+			
+			<h1>Contacter-nous</h1>
+			
+			
+			
+			<form>
+				
+				<!-- Formulaire ecrit -->
+				<div>	
+					<label for="nom">Nom de famille : </label>		
+					<input type="text" id="nom" name="nom"/>
+					<label for="prenom">Votre prenom : </label>
+					<input type="text" id="prenom" name="prenom"/>
+					<label for="email">Votre adresse courriel : </label>
+					<input type="email" id="email" name="email"/>
+				</div>
+				
+				<!-- Liste deroulante -->
+				<div>
+					<label for="ville">Votre ville : </label>
+					<select name="ville" id="ville">
+						
+						<option value="laval">Laval</option>
+						<option value="montreal">Montréal</option>
+						<option value="sherbrook">Sherbrook</option>
+						
+					</select>
+				</div>
+			
+			    <!-- Bouton -->
+				<div>
+				<label for="sexe">Votre sexe : </label>
+				<input type="radio" id="homme" name="sexe" checked="checked"/>
+				<label for="sexe">Homme</label>
+				<input type="radio" id="femme" name="sexe"/>
+				<label for="sexe">Femme</label>
+				</div>
+				
+				<!-- Case a cocher -->
+				<div>
+				<span>Quel pokemon avez-vous choisie : </span>
+				<input type="checkbox" id="evoli" name="pokemon" checked="checked"/>
+				<label for="pokemon">Evoli</label>
+				<input type="checkbox" id="teddiursa" name="pokemon"/>
+				<label for="teddiursa">Teddiursa</label>
+				
+				
+				
+				
+				</div>
+			</form>
+			
+			
+			
+			
+			
+			
+			
+			</body>
+			
+			
+			
+		</html>				
