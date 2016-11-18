@@ -1,0 +1,141 @@
+body {
+	background-image:url(../images/banner/maxresdefault.jpg);
+	background-size: 133%;
+	background-repeat:repeat-y;
+	width:100%;
+}
+ul{
+	list-style:none;
+	
+}
+li.menu-header{
+	font-family: 'Patua One', cursive;
+	float:left;
+	padding-left:15px;
+	width:100px;
+	
+}
+#logo{
+	width: 35px;
+    height: 35px;
+    display: flex;
+    direction: ltr;
+    border: 50px;
+    border-radius: 50px;
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+    top: 82px;
+    left: 350px;
+}
+#logo2{
+	width: 35px;
+    height:  35px;
+    display: flex;
+    direction: ltr;
+    border: 50px;
+    border-radius: 50px;
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+    top: 82px;
+    right: 595px;
+}
+
+h1{
+    margin-right: auto;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    text-decoration: none;
+	text-align:center;
+	position:absolute;
+	top:5px;
+	left: 635px;
+	
+	
+}
+h2{
+	text-align:center;	
+}
+.active{
+	background-color:red;
+}
+header{
+	padding:50px 20px 60px 50px;
+	display: flex;
+    direction: ltr;
+   width: 1015px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 200px;
+    padding-right: 400px;
+    padding-top: 50px;
+    margin-top: -5px;
+    z-index: 600;
+    position: relative;
+    text-decoration: none;
+}
+#main-menu {
+    display: inline-block;
+    vertical-align:top ;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    margin-top:-5px;
+    position: relative;
+    text-decoration: none;
+	left: 198px;
+    
+}
+#pokemon{
+	text-align:center;
+}
+#pokemon>div{
+	display:inline-block;
+	vertical-align:top;
+	width:200px;
+	margin:10px;
+	border:solid black;
+	text-align:center;
+}
+.fixed{
+	padding:5px;
+	position:fixed;
+	bottom:0px;
+	right:0px;
+	width:54px;
+}
+ul#menu-footer li{
+	width:100%;
+}
+p{
+	text-align:center;
+}
+.pokemon{ 
+	
+	padding-right:50px;
+	
+	
+}
+#evolie{
+	width:100%;
+	margin:auto;
+	padding:10px;
+}
+#reseaux{
+	display:inline-block;
+	vertical-align:bottom;
+	width:50px;
+	margin:10px;
+	border:solid black;
+	padding-right:50px;
+}
+
+
+
+
+
