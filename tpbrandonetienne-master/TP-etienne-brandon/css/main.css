@@ -1,0 +1,319 @@
+/*DEBUT HEADER*/
+
+body {
+	background-image:url(../images/banner/maxresdefault.jpg);
+	background-size: 133%;
+	background-repeat:repeat-y;
+	width:100%;
+}
+ul{
+	list-style:none;
+	
+}
+li.menu-header{
+	font-family: 'Patua One', cursive;
+	float:left;
+	padding-left:15px;
+	width:100px;
+	
+}
+.active{
+	background-color:red;
+	
+	
+}
+
+#logo{
+	width: 35px;
+    height: 35px;
+    direction: ltr;
+    border: 50px;
+    border-radius: 50px;
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    left: 0px;
+}
+#logo2{
+	width: 35px;
+    height:  35px;
+    direction: ltr;
+    border: 50px;
+    border-radius: 50px;
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+	top: 10px;
+    right: -24px;
+}
+#navigation{
+	position:relative;
+	width: 600px;
+    margin: auto;
+	
+}
+h1{
+    margin-right: auto;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    text-decoration: none;
+    text-align: center;
+	
+}
+/*FIN HEADER*/
+
+
+
+/*DEBUT BODY INDEX*/
+
+h2{
+	text-align:center;	
+	color:lightyellow;
+}
+
+header{
+    direction: ltr;
+    width: 1015px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: none;
+}
+#main-menu {
+	display: inline-block;
+    vertical-align: top;
+    width: 582px;
+    text-decoration: none;
+    background-color: lightblue;
+    border-radius: 10px 10px 10px 10px;
+}
+#pokemon{
+	text-align:center;
+}
+#pokemon>div{
+	display:inline-block;
+	vertical-align:top;
+	width:200px;
+	margin:10px;
+	border:solid black;
+	padding:5px;
+	text-align:center;
+	
+}
+.fixed{
+	padding:5px;
+	position:fixed;
+	bottom:0px;
+	right:0px;
+	width:54px;
+}
+p{
+	text-align:center;
+	
+}
+
+div#evoli{ 
+	border: 3px solid; 
+	height: 305px;
+	
+} 
+#img-evoli{ 
+	width: 203px; 
+} 
+div#caninos{ 
+	border: 3px solid black; 
+	padding-top: 0px; 
+	height: 302px; 
+} 
+#img-caninos{ 
+	width: 194px; 
+} 
+
+#img-teddiursa{ 
+	width: 230px; 
+}
+/*FIN BODY INDEX*/
+
+/*DEBUT BODY FORMULAIRE*/
+
+#map{
+	position: relative;
+    margin: auto;
+}
+
+iframe{
+	width: 100%;
+    height: 100%;
+    border: 3px solid black;
+}
+
+#formulaire{
+    border: 3px solid black;
+    background-color: lemonchiffon;
+    margin: auto;
+    position: relative;
+    width: 600px;
+}
+
+.formulaire{
+	display: block;
+}
+
+/*FIN BODY FORMULAIRE*/
+
+/*DEBUT PAGE EVOLIE*/
+
+#type{
+	position: relative;
+    width: 375px;
+    margin-left: 100px;
+    display: inline-block;
+    border: 3px solid black;
+    background-color: beige;
+}
+.display{
+	display: inline-block;
+    width: 305px;
+    position: relative;
+    bottom: 170px;
+    border: 3px solid black;
+    background-color: lightblue;
+	
+}
+
+#display{
+	display: inline-block;
+    width: 305px;
+    position: relative;
+    bottom: 270px;
+    border: 3px solid black;
+    background-color: lightblue;
+}
+
+#soustitre{
+	text-align:center;
+	margin-left:60px;
+	color:brown;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*FIN PAGE EVOLIE*/
+
+/*Debut FOOTER*/
+footer{
+	direction: ltr;
+    width: 1015px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: none;
+}
+#navfoot{
+	position:relative;
+	width: 600px;
+    margin: auto;
+	
+}
+
+#menu-footer {
+    display: inline-block;
+    vertical-align: top;
+    width: 582px;
+    text-decoration: none;
+    background-color: lightblue;
+    border-radius: 10px 10px 10px 10px;
+}
+#logo3{
+	
+	width: 35px;
+    height: 35px;
+    display: flex;
+    direction: ltr;
+    border: 50px;
+    border-radius: 50px;
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+	top: 11px;
+    left: 0px;
+	
+}
+
+#logo4{
+	width: 35px;
+    height:  35px;
+    display: flex;
+    direction: ltr;
+    border: 50px;
+    border-radius: 50px;
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+	top: 11px;
+    right: -25px;
+	
+}
+
+
+li.menu-footer{
+	font-family: 'Patua One', cursive;
+    float: left;
+    padding-left: 15px;
+    width: 100px;
+	
+}
+
+#coordonnees{
+    position: relative;
+    left: 836px;
+    width: 359px
+}
+.coordonnees{
+	position:absolute;
+}
+#socialmed{
+	width:200px;
+	position:relative;
+	margin-left: -140px;
+}
+#facebook{
+	width:50px;
+	height:50px;
+	float:left;
+	padding-right: 15px;
+	position:absolute;
+	left: 40px;
+	top: 70px;
+}
+#twitter{
+	width:50px;
+	height:50px;
+	float:left;
+	padding-right: 15px;
+	position:absolute;
+	top: 70px;
+    left: 115px;
+}
+#youtube{
+	width:50px;
+	height:50px;	
+	position:absolute;
+	top: 70px;
+    left: 190px;
+}
+
+/*FIN FOOTER*/
+
+
+
+
+
