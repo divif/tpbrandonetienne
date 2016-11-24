@@ -5,162 +5,210 @@
         <title>Galerie pokémon</title>
         <meta name="author" content="Prénom Nom" >
         <meta name="description" content="Mettre ici un résumé descriptif du contenu de la page avec des mots-clés" >
-        <meta name="robots" content="index,follow" >
+        <meta name="robots" content="noindex,nofollow" >
         <link rel="shortcut icon" type="images/x-icon" href="favicon.ico" >    
-        <link rel="stylesheet" href="css/" >
+        <link rel="stylesheet" href="css/main.css" >
         <script src="js/main.js"></script>
-	
+		
 		<!-- 		
 			commentaire conditionnel pour rendre compatible les nouvelles balises structurantes de HTML5 
 		-->
 		
 		<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		<style>
 			article, aside, details, figcaption, figure, footer, header, main, nav, section { display: block; }
 		</style>
 	</head>
     <body>
-	<div id="header">
-		<img id="logo" src="images/logo/pokeball_template_by_poke_lab.png" alt="Logo de PokeAdopte" />
-			<ul id="main-menu">
-				<li>
-					<a href="file:///U:/TP-etienne-brandon/TP_etienne_brandon.html">Accueil</a>
-				</li>
-				<li>
-					<a href="file:///U:/TP-etienne-brandon/galerie.html">Galerie</a>
-				</li>
-				<li>
-					<a href="tableaux.html">Tableaux</a>
-				</li>				
-				<li>
-					<a href="catalogue.html">Catalogues</a>
-				</li>
-				<li>
-					<a href="contact.html">Contact</a>
-				</li>
-			</ul>
-			<img id="logo" src="images/logo/pokeball_template_by_poke_lab.png" alt="Logo de PokeAdopte" />
-		</div>
-		<div>
-		<h1>PokeAdopte</h1>
-		</div>
-	<div id="teddiursa">
-							<a href="teddiursa.html">
-								<img src="images/pokemon/250px-216Teddiursa.png" alt="photo d'un Teddiursa" />
-							</div>
-							<h2>Teddiursa</h2>
-								<div id="caninos">
+		<!-- debut header -->
+		<header>
+			<h1>PokeAdopte</h1>
+			<div id="navigation">
+				<img id="logo" src="images/logo/pokeball_template_by_poke_lab.png" alt="Logo de PokeAdopte" />
+				<img id="logo2" src="images/logo/pokeball_template_by_poke_lab.png" alt="Logo de PokeAdopte" />
+				
+				<ul id="main-menu">
+					<li class="menu-header">
+						<a href="index.html">Accueil</a>
+					</li>
+					<li class="menu-header">
+						<a href="galerie.html" class="active">Galerie</a>
+					</li>
+					<li class="menu-header">
+						<a href="tableaux.html">Tableaux</a>
+					</li>				
+					<li class="menu-header">
+						<a href="catalogue.html">Catalogues</a>
+					</li>
+					<li class="menu-header">
+						<a href="formulaire.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+		
+		<!-- fin header -->
+		<div id="galerie">
+		<div id="main">
+			<div id="grp-01">
+				<div id="teddiursa">
+					<a href="teddiursa.html">
+						<img class="mini"src="images/pokemon/250px-216Teddiursa.png" alt="photo d'un Teddiursa" />
+						<h2>Teddiursa</h2>
+					</a>
+					</div>
+					
+					<div id="canino">
 						<a href="caninos.html">
-							<img src="images/pokemon/250px-Caninos-RFVF.png" alt="photo d'un Caninos" />
-						</div>
-						<h2>Caninos</h2>
-						<div id="evolie">
-					<a href="evolie.html">
-						<img src="images/pokemon/250px-Évoli-RFVF.png" alt="photo d'un Évolie" />
-					</div>
-					<h2>Évolie</h2>
-					<div id="emolga">
-					<a href="emolga.html">
-						<img src="images/pokemon/pokemon_top10_mignons_emolga_01_hd.jpg" alt="photo d'un Émolga" />
-					</div>
-					<h2>Émolga</h2>
-					<div id="shinx">
-					<a href="shinx.html">
-						<img src="images/pokemon/1464670982.jpg" alt="photo d'un Shinx" />
-					</div>
-					<h2>Shinx</h2>
-					<div id="joliflor">
-					<a href="joliflor.html">
-						<img src="images/pokemon/250px-Joliflor-RFVF.png" alt="photo d'un Joliflor" />
-					</div>
-					<h2>Joliflor</h2>
-					<div id="obalie">
-					<a href="obalie.html">
-						<img src="images/pokemon/250px-Obalie-RS.png" alt="photo d'un Obalie" />
-					</div>
-					<h2>Obalie</h2>
-					<div id="ponchiot">
-					<a href="ponchiot.html">
-						<img src="images/pokemon/250px-Ponchiot-NB.png" alt="photo d'un Ponchiot" />
-					</div>
-					<h2>Ponchiot</h2>
-					<div id="tiplouf">
-					<a href="tiplouf.html">
-						<img src="images/pokemon/175px-Tiplouf-Pt.png" alt="photo d'un Tiplouf" />
-					</div>
-					<h2>Tiplouf</h2>
-					<div id="moustillon">
-					<a href="moustillon.html">
-						<img src="images/pokemon/250px-Moustillon-NB2.png" alt="photo d'un Moustillon" />
-					</div>
-					<h2>Moustillon</h2>
-					<div id="chinchilada">
-					<a href="chinchilada.html">
-						<img src="images/pokemon/250px-572Minccino.png" alt="photo d'un Chinchilada" />
-					</div>
-					<h2>Chinchilada</h2>
-					<div id="gobou">
-					<a href="gobou.html">
-						<img src="images/pokemon/175px-Gobou-ROSA.png" alt="photo d'un Gobou" />
-					</div>
-					<h2>Gobou</h2>
-					<div id="footer">
-						<!-- start menu footer -->
-						<ul id="menu-footer">
-							<li>
-								<a href="index.html">Accueil</a>
-							</li>
-							<li>
-								<a href="galerie.html">Galerie</a>
-							</li>
-							<li>
-								<a href="tableaux.html">Tableaux</a>
-							</li>				
-							<li>
-								<a href="catalogue.html">Catalogues</a>
-							</li>
-							<li>
-								<a href="contact.html">Contact</a>
-							</li>
-						</ul>
-						<!-- end menu footer -->
-						<!-- start COORDONNÉES -->
-						<ul id="coordonnees">
-							<li><span class="rouge">Tel.:</span>514 658-6249</li>
-							<li><span class="rouge">Fax:</span>514 526-5483</li>
-							<li><span class="rouge">Email:</span>info@pokeadopte.com</li>
-							<li><span class="rouge">Adresse:</span>255 Sainte-Catherine, h5m 5d9 Montréal</li>
-							
-						</ul>
-						<!-- end COORDONNEES -->
-						<!-- start reseaux sociaux -->
-						<!-- start RESEAUX SOCIAUX -->
-						<ul>	
-							<li>
-								<a href="http://www.facebook.com">
-									<img src="images/social/facebook.png" alt="joignez PokeAdopte sur Facebook"/>
-								</a>
-							</li>
-							<li>
-								<a href="http://www.twitter.com">
-									<img src="images/social/twitter.png" alt="joignez PokeAdopte sur Twitter"/>
-								</a>
-							</li>
-							<li>
-								<a href="http://www.youtube.com">
-									<img src="images/social/youtube.png" alt="joignez PokeAdopte sur youTube"/>
-								</a>
-							</li>
-							
-						</ul>
-						<!-- end RESEAUX SOCIAUX -->
-						
-						<span>PokeAdopte &copy; 2016</span>
-						<a href="#top" class="fixed">
-							<img src="images/top.png" alt="icone fleche pour remonter" />
+							<img class="mini"src="images/pokemon/250px-Caninos-RFVF.png" alt="photo d'un Caninos" />
+							<h2>Caninos</h2>
 						</a>
-					</div>
-	</body>
-</html>
+						</div>
+						
+						<div id="evolie">
+							<a href="evolie.html">
+								<img class="mini"src="images/pokemon/evoli.png" alt="photo d'un Évolie" />
+								<h2>Évolie</h2>
+							</a>
+							</div>
+							
+							<div id="emolga">
+								<a href="emolga.html">
+									<img class="mini"src="images/pokemon/250px-587Emolga.png" alt="photo d'un Émolga" />
+									<h2>Émolga</h2>
+								</a>
+								</div>
+							</div>
+							<div id="grp-02">
+								<div id="shinx">
+									<a href="shinx.html">
+										<img class="mini"src="images/pokemon/403.png" alt="photo d'un Shinx" />
+										<h2>Shinx</h2>
+									</a>
+									</div>
+									<div id="joliflor">
+										<a href="joliflor.html">
+											<img class="mini"src="images/pokemon/250px-Joliflor-RFVF.png" alt="photo d'un Joliflor" />
+											<h2>Joliflor</h2>
+										</a>
+										</div>
+										
+										<div id="obalie">
+											<a href="obalie.html">
+												<img class="mini"src="images/pokemon/250px-Obalie-RS.png" alt="photo d'un Obalie" />
+												<h2>Obalie</h2>
+											</a>
+											</div>
+											
+											<div id="ponchiot">
+												<a href="ponchiot.html">
+													<img class="mini"src="images/pokemon/250px-Ponchiot-NB.png" alt="photo d'un Ponchiot" />
+													<h2>Ponchiot</h2>
+												</a>
+												</div>
+											</div>
+											<div id="grp-03">
+												<div id="tiplouf">
+													<a href="tiplouf.html">
+														<img class="mini"src="images/pokemon/175px-Tiplouf-Pt.png" alt="photo d'un Tiplouf" />
+														<h2>Tiplouf</h2>
+													</a>
+													</div>
+													
+													<div id="moustillon">
+														<a href="moustillon.html">
+															<img class="mini"src="images/pokemon/250px-Moustillon-NB2.png" alt="photo d'un Moustillon" />
+															<h2>Moustillon</h2>
+														</a>
+														</div>
+														
+														<div id="chinchilada">
+															<a href="chinchilada.html">
+																<img class="mini"src="images/pokemon/250px-572Minccino.png" alt="photo d'un Chinchilada" />
+																<h2>Chinchilada</h2>
+															</a>
+															</div>
+															
+															<div id="gobou">
+																<a href="gobou.html">
+																	<img class="mini"src="images/pokemon/175px-Gobou-ROSA.png" alt="photo d'un Gobou" />
+																	<h2>Gobou</h2>
+																</a>
+																</div>
+															</div>
+														</div>
+		</div>
+														<!-- start footer -->
+														<footer>
+															<!-- start menu footer -->
+															<!-- start RESEAUX SOCIAUX -->
+															<div  id="socialmed">
+																<ul>	
+																	<li>
+																		<a href="http://www.facebook.com">
+																			<img src="images/social/facebook.png" alt="joignez PokeAdopte sur Facebook"  id="facebook"/>
+																		</a>
+																	</li>
+																	<li>
+																		<a href="http://www.twitter.com">
+																			<img src="images/social/twitter.png" alt="joignez PokeAdopte sur Twitter" id="twitter"/>
+																		</a>
+																	</li>
+																	<li>
+																		<a href="http://www.youtube.com">
+																			<img src="images/social/youtube.png" alt="joignez PokeAdopte sur youTube" id="youtube"/>
+																		</a>
+																	</li>
+																	
+																</ul>
+															</div>
+															<!-- end RESEAUX SOCIAUX -->
+															
+															
+															<div id="navfoot">
+																<img id="logo3" src="images/logo/pokeball_template_by_poke_lab.png" alt="Logo de PokeAdopte" />
+																<img id="logo4" src="images/logo/pokeball_template_by_poke_lab.png" alt="Logo de PokeAdopte" />
+																
+																
+																
+																<ul id="menu-footer">
+																	<li class="menu-footer">
+																		<a href="index.html">Accueil</a>
+																	</li>
+																	<li class="menu-footer">
+																		<a href="galerie.html" class="active">Galerie</a>
+																	</li>
+																	<li class="menu-footer">
+																		<a href="tableaux.html">Tableaux</a>
+																	</li>				
+																	<li class="menu-footer">
+																		<a href="catalogue.html">Catalogues</a>
+																	</li>
+																	<li class="menu-footer">
+																		<a href="formulaire.html">Contact</a>
+																	</li>
+																</ul>
+															</div>
+															<!-- end menu footer -->
+															<!-- start COORDONNÉES -->
+															<div id="coordonnees">
+																<ul class="coordonnees">
+																	<li><span>Tel.:</span>514 658-6249</li>
+																	<li><span>Fax:</span>514 526-5483</li>
+																	<li><span>Email:</span>info@pokeadopte.com</li>
+																	<li><span>Adresse:</span>255 Sainte-Catherine, h5m 5d9 Montréal</li>
+																	<li><span>PokeAdopte &copy; 2016</span></li>
+																</ul>
+															</div>
+															<!-- end COORDONNEES -->
+															
+															
+															
+															<a href="#top" class="fixed">
+																<img src="images/top.png" alt="icone fleche pour remonter" class="fixed"/>
+															</a>
+														</footer>
+													</body>
+												</html>												
